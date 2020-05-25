@@ -1,0 +1,25 @@
+{
+    "azure_vm_automation_config" : [
+        {
+            "webdriver_path" : "/usr/bin/chromedriver",
+            "azure_portal_url": "https://portal.azure.com/",
+            "account": "",
+            "password": "",
+            "directory" : [
+                { 
+                    "name" : "",
+                    "is_classic_vm" : false,
+                    "resource" : [
+                        {
+                            "name" : ""
+                        },
+                        {
+                            "name" : ""
+                        }
+                    ]
+                }
+            ]
+
+        }
+    ]
+}
