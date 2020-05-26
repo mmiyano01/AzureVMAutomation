@@ -110,7 +110,7 @@ for tenant in TENANTS:
         start_button.click()
         time.sleep(1)
         yes_button = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//div[@role='button' and @title='Yes']")))
-        #yes_button.click()
+        yes_button.click()
     except NoSuchElementException:
         print("Failed to start resources.")
         driver.quit()
