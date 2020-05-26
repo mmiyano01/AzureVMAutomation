@@ -7,7 +7,8 @@
             "password": "",
             "directory" : [
                 { 
-                    "name" : "",
+                    "directory_name" : "",
+                    "domain_name" : "",
                     "is_classic_vm" : false,
                     "resource" : [
                         {
