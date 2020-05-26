@@ -1,26 +1,26 @@
 # AzureVMAutomation
 
-Web automation program to be able to control virtul machine(s) on Azure Portal. 
+Web automation program to control virtul machine(s) on Azure Portal. 
 
 ## Getting Started
 
 This python program will automatically start virtul machine(s) on Azure Portal with using Selenium. 
-So far, it only have function to start the vm but eventually I will add more functions (such as stop vm).
+So far, it only has function to start the vm, but eventually I will add more functions (such as stop vm).
 
 ### Prerequisites
 
-To run this program, Python with selenium module and chrome webdriver must be installed.
+To run this program, Python (with selenium module) and chrome webdriver must be installed.
 
 ```
 Developed and tested with following verions.
-- Ubuntu 18.04
+- OS: Ubuntu 18.04
 - Python 3.6.9
 - ChromeDriver 83.0.4103.39
 ```
 
 ### Installing
 
-Download ChromeDriver (the version must be matched with Chrome browser on your machine).
+Download ChromeDriver (the version of ChromeDriver must be matched with Chrome browser version on your machine).
 
 ```
 Chromedriver (webdriver)
@@ -39,6 +39,7 @@ pip3 install selenium
 ```
 
 ### Config
+Edit config.json as below:
 
 ```
 {
@@ -51,7 +52,7 @@ pip3 install selenium
             "directory" : [
                 { 
                     "directory_name" : "name of directory (ex. Default Directory). Leave it blank if there is only one directory and nothing to choose",
-                    "domain_name" : "same as above",
+                    "domain_name" : "same as above (ex. example.onmicrosoft.com)",
                     "is_classic_vm" : true/false,
                     "resource" : [
                         {
