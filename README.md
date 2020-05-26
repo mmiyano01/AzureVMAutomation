@@ -36,6 +36,9 @@ Install selenium module to python
 pip install selenium
 or
 pip3 install selenium
+
+on cmd (Windows)
+py -m pip install selenium
 ```
 
 ### Config
@@ -76,4 +79,7 @@ Edit config.json as below:
 python azure_vm_automation.py
 or
 python3 azure_vm_automation.py
+
+on cmd (windows)
+py azure_vm_automation.py
 ```
