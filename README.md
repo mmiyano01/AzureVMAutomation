@@ -50,7 +50,8 @@ pip3 install selenium
             "password": "Log-in password",
             "directory" : [
                 { 
-                    "name" : "name of directory (ex. Default Directory). Leave it blank if there is no directory to choose",
+                    "directory_name" : "name of directory (ex. Default Directory). Leave it blank if there is only one directory and nothing to choose",
+                    "domain_name" : "same as above",
                     "is_classic_vm" : true/false,
                     "resource" : [
                         {
