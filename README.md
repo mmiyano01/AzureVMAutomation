@@ -55,14 +55,14 @@ Edit config.json as below:
             "directory" : [
                 { 
                     "directory_name" : "name of directory (ex. Default Directory). Leave it blank if there is only one directory and nothing to choose",
-                    "domain_name" : "same as above (ex. example.onmicrosoft.com)",
+                    "domain_name" : "name of domain (ex. example.onmicrosoft.com). Leave it blank if there is only one directory and nothing to choose",
                     "is_classic_vm" : true/false,
                     "resource" : [
                         {
                             "name" : "Name of virtual machine."
                         },
                         {
-                            "name" : "Add more object if there is more than one vm to start"
+                            "name" : "Add more object and input name of vm if there is more than one vm to start"
                         }
                     ]
                 }
